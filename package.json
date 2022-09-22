@@ -7,7 +7,8 @@
     "start:watch": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "migration": "sequelize db:migrate",
-    "worker": "node worker.js"
+    "worker": "node worker.js",
+    "task:nettoyage-en-retard": "node nettoyage.js"
   },
   "author": "OCTO",
   "license": "ISC",
